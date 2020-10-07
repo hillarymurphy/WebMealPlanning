@@ -12,7 +12,7 @@ import model.ListMeal;
 public class ListMealHelper {
 
 	static EntityManagerFactory emfactory =	
-			Persistence.createEntityManagerFactory("WebMealPlanning");
+			Persistence.createEntityManagerFactory("UserMealPlanning");
 	
 	public void	insertMeal(ListMeal	lm){
 		EntityManager em = emfactory.createEntityManager();
